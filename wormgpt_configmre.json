@@ -1,0 +1,7 @@
+{
+  "api_key": "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",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "google/gemini-2.5-flash",
+  "language": "Thai",
+  "private_chats": {}
+}
