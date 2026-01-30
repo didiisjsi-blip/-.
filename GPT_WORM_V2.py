@@ -26,7 +26,7 @@ PROMPT_FILE = "system-prompt.txt"
 DEFAULT_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = "google/gemini-2.5-flash" 
+DEFAULT_MODEL = "google/gemini-2.0-flash-exp:free" 
 DEFAULT_LANGUAGE = "Thai"
 
 SITE_URL = "https://github.com/00x0kafyy/worm-ai"
@@ -1105,4 +1105,5 @@ if __name__ == "__main__":
     except discord.errors.LoginFailure:
         print("Invalid Discord Token!", file=sys.stderr)
     except Exception as e:
+
         print(f"Unexpected Error: {e}", file=sys.stderr)
